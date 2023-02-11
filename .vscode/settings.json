@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        ".helmignore": "ignore"
+        ".helmignore": "ignore",
+        "**/charts/**/*.yaml": "helm",
+        "**/charts/**/Chart.yaml": "yaml"
     }
 }
