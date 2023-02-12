@@ -17,7 +17,7 @@ errorPages:
   templateName: "shuffle"
   showDetails: false
   defaultErrorPage: "404"
-  defaultHttpCode: "404"
+  defaultHttpCode: "200" # if set outside the "success" range, container probes will be TCP only
   disableL10n: false
 
 podAnnotations: {}

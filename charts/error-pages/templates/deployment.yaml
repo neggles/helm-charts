@@ -60,13 +60,9 @@ spec:
               containerPort: {{ .Values.service.port }}
               protocol: TCP
           livenessProbe:
-            httpGet:
-              path: /
-              port: http
+            {{- include "error-pages.deploymentProbe" . | nindent 12 }}
           readinessProbe:
-            httpGet:
-              path: /
-              port: http
+            {{- include "error-pages.deploymentProbe" . | nindent 12 }}
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
