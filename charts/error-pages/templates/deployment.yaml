@@ -37,7 +37,7 @@ spec:
               value: {{ .Values.service.port | quote }}
             {{- if .Values.errorPages.templateName }}
             - name: TEMPLATE_NAME
-              value: {{ .Values.ui.message | quote }}
+              value: {{ .Values.errorPages.templateName | quote }}
             {{- end }}
             {{- if .Values.errorPages.showDetails }}
             - name: SHOW_DETAILS
