@@ -54,10 +54,10 @@ app.kubernetes.io/instance: {{ .Release.Name }}
 Choose livenessProbe and readinessProbe type depending on whether our defaultHttpCode is a 2xx or 4xx/5xx
 */}}
 {{- define "error-pages.deploymentProbe" -}}
-{{- with $code := atoi .values.errorPages.defaultHttpCode }}
+{{- with $code := atoi .Values.errorPages.defaultHttpCode }}
 {{- if and (lt $code 400) (ge $code 200) }}
 httpGet:
-  path: "/{{ .values.errorPages.defaultHttpCode }}.html"
+  path: "/{{ .Values.errorPages.defaultHttpCode }}.html"
   port: http
 {{- else }}
 tcpSocket:
