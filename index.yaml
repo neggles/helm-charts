@@ -3,6 +3,23 @@ entries:
   error-pages:
   - apiVersion: v2
     appVersion: "2.20"
+    created: "2023-02-12T16:07:59.698153102Z"
+    description: A `tarampampam/error-pages` Helm chart for Kubernetes
+    digest: d742ea3e673948acaca374f995be49a7f37c15c19127626b4812c25dc9b23c48
+    home: https://github.com/tarampampam/error-pages
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: aholmes@omnom.net
+      name: neggles
+    name: error-pages
+    sources:
+    - https://github.com/tarampampam/error-pages
+    type: application
+    urls:
+    - https://github.com/neggles/helm-charts/releases/download/error-pages-0.1.5/error-pages-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: "2.20"
     created: "2023-02-12T16:03:13.142262735Z"
     description: A `tarampampam/error-pages` Helm chart for Kubernetes
     digest: a10649b23c8616715f7eff1d293925f0bb4e963dec8de7ba46dd3417a3409695
@@ -110,4 +127,4 @@ entries:
     urls:
     - https://github.com/neggles/helm-charts/releases/download/mastodon-4.0.5/mastodon-4.0.5.tgz
     version: 4.0.5
-generated: "2023-02-12T16:03:13.294036944Z"
+generated: "2023-02-12T16:07:59.698175602Z"
