@@ -3,5 +3,14 @@
         ".helmignore": "ignore",
         "**/charts/**/*.yaml": "helm",
         "**/charts/**/Chart.yaml": "yaml"
+    },
+
+    "[helm]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+    "[yaml]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
     }
 }
