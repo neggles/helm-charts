@@ -55,11 +55,11 @@ Choose livenessProbe and readinessProbe type depending on whether our defaultHtt
 */}}
 {{- define "error-pages.deploymentProbe" -}}
 {{- with $code := atoi .Values.errorPages.defaultHttpCode }}
-{{- if and (lt $code 400) (ge $code 200) }}
+{{- if and (lt $code 400) (ge $code 200) -}}
 httpGet:
-  path: "/{{ $code }}.html"
+  path: {{ printf "/%d.html" $code }}
   port: http
-{{- else }}
+{{- else -}}
 tcpSocket:
   port: http
 {{- end }}
