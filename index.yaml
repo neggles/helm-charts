@@ -3,6 +3,23 @@ entries:
   error-pages:
   - apiVersion: v2
     appVersion: v2.20.0
+    created: "2023-02-12T07:11:55.177005641Z"
+    description: A `tarampampam/error-pages` Helm chart for Kubernetes
+    digest: 55efd454f7cd917eed2a289b7793cb9a1cfa4163192dd280b3f5b828e8bc8cf5
+    home: https://github.com/tarampampam/error-pages
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: aholmes@omnom.net
+      name: neggles
+    name: error-pages
+    sources:
+    - https://github.com/tarampampam/error-pages
+    type: application
+    urls:
+    - https://github.com/neggles/helm-charts/releases/download/error-pages-0.1.2/error-pages-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: v2.20.0
     created: "2023-02-12T05:43:56.259975149Z"
     description: A `tarampampam/error-pages` Helm chart for Kubernetes
     digest: eb9dd1b46fa4071bbd8e8e86b659e31ae69b04d2ce0acc77cdc2b1776bd9a400
@@ -35,4 +52,4 @@ entries:
     urls:
     - https://github.com/neggles/helm-charts/releases/download/error-pages-0.1.0/error-pages-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-12T05:43:56.259983049Z"
+generated: "2023-02-12T07:11:55.177015341Z"
