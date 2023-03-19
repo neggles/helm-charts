@@ -31,5 +31,9 @@ jobs:
 
       - name: 🚀 Publish Helm charts
         uses: helm/chart-releaser-action@v1.5.0
+        with:
+          charts_dir: charts
+          config: cr.yaml
+          charts_repo_url: https://${{ github.repository_owner }}.github.io/${{ github.repository_name }}
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"

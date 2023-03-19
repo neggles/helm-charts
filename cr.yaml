@@ -1,0 +1,3 @@
+owner: neggles
+git-repo: helm-charts
+generate-release-notes: true
