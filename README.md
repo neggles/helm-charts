@@ -1,7 +1,7 @@
 # neggles/helm-charts
 
 [![Release Charts](https://github.com/neggles/helm-charts/actions/workflows/release.yaml/badge.svg)](https://github.com/neggles/helm-charts/actions/workflows/release.yaml)
-[![Publish Charts](https://github.com/neggles/helm-charts/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/neggles/helm-charts/actions/workflows/pages/pages-build-deployment)
+[![Publish Charts](https://github.com/neggles/helm-charts/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/neggles/helm-charts/actions/workflows/pages/pages-build-deployment)
 
 This repository contains helm charts I've put together for an assortment of services, mostly for
 my own use. Some are modified/improved/fixed versions of other charts, some are original, some are
